@@ -44,15 +44,15 @@
             <script type="text/javascript" src="jquery.wsticky.js"></script>
             <script type="text/javascript">
                 $(document).ready(function() {
-                    $('.button').click(function() {
-                       $.wSticky('abc');
+                    $('#right-top').click(function() {
+                       $.wSticky('默认位置为右上角');
                     });
                 });
             </script>
     </head>
     <body>
         <div>
-            <a class="button" href="#">测试</a>
+            <a class="button" href="#" id="right-top">右上角</a>
         </div>      
     </body>
 </html>
