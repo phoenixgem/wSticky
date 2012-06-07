@@ -47,12 +47,22 @@
                     $('#right-top').click(function() {
                        $.wSticky('默认位置为右上角');
                     });
+                    
+                    $('#center-top').click(function() {
+                        $.wSticky('显示于中上位置！', {position:"top-center"});
+                    });
+                    
+                    $('#left-top').click(function() {
+                        $.wSticky('显示于左上位置！', {position:"top-left"});
+                    });
                 });
             </script>
     </head>
     <body>
-        <div>
-            <a class="button" href="#" id="right-top">右上角</a>
+        <div style="margin-top:100px; margin-left: 100px;">
+            <a class="button" href="#" id="right-top">右上</a>
+            <a class="button" href="#" id="center-top">中上</a>
+            <a class="button" href="#" id="left-top">左上</a>
         </div>      
     </body>
 </html>
